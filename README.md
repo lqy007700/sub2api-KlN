@@ -1,3 +1,8 @@
+> **ThisAI 自用版本**：部署改版 UI 请使用
+> [`codex/thisai-branding`](https://github.com/lqy007700/sub2api-KlN/tree/codex/thisai-branding)。
+> [`klno`](https://github.com/lqy007700/sub2api-KlN/tree/klno) 保留社区二开基线；
+> 更新、验证与镜像构建见 [ThisAI 维护说明](https://github.com/lqy007700/sub2api-KlN/blob/codex/thisai-branding/docs/THISAI.md)。
+
 <div align="center">
 
 <img src="assets/logo.svg" alt="Sub2API Logo" width="128" />
