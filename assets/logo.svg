@@ -1,32 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">Sub2API</title>
-  <desc id="desc">An interlocking S symbol representing subscription routing into APIs.</desc>
+  <title id="title">ThisAI</title>
+  <desc id="desc">A luminous T-shaped network mark for the ThisAI gateway.</desc>
   <defs>
-    <linearGradient id="s2a-bg" x1="72" y1="44" x2="442" y2="478" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#142B56"/>
-      <stop offset=".52" stop-color="#0A1A39"/>
-      <stop offset="1" stop-color="#061127"/>
+    <linearGradient id="thisai-bg" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#142b56"/>
+      <stop offset=".55" stop-color="#0b1730"/>
+      <stop offset="1" stop-color="#071020"/>
     </linearGradient>
-    <radialGradient id="s2a-ambient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(168 92) rotate(51) scale(342 382)">
-      <stop stop-color="#3E68B0" stop-opacity=".28"/>
-      <stop offset="1" stop-color="#3E68B0" stop-opacity="0"/>
+    <radialGradient id="thisai-ambient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(174 104) rotate(54) scale(354 400)">
+      <stop stop-color="#477de0" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#477de0" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="s2a-brand" x1="4" y1="4" x2="20" y2="20" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#79F4BD"/>
-      <stop offset=".48" stop-color="#39D9E7"/>
-      <stop offset="1" stop-color="#3875F6"/>
+    <linearGradient id="thisai-mark" x1="158" y1="158" x2="342" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8cecff"/>
+      <stop offset=".52" stop-color="#5b9bff"/>
+      <stop offset="1" stop-color="#b39aff"/>
     </linearGradient>
-    <filter id="s2a-shadow" x="-25%" y="-25%" width="150%" height="165%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy=".55" stdDeviation=".65" flood-color="#020817" flood-opacity=".34"/>
+    <filter id="thisai-glow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
-
-  <rect x="16" y="16" width="480" height="480" rx="120" fill="url(#s2a-bg)"/>
-  <rect x="16" y="16" width="480" height="480" rx="120" fill="url(#s2a-ambient)"/>
-  <rect x="16.75" y="16.75" width="478.5" height="478.5" rx="119.25" fill="none" stroke="#A5BFFF" stroke-opacity=".16" stroke-width="1.5"/>
-
-  <g transform="translate(52 52) scale(17)" fill="none" stroke="url(#s2a-brand)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.7" filter="url(#s2a-shadow)">
-    <path d="m19.25 7.65-2.55-3.2a1.33 1.33 0 0 0-1.03-.5H8.58c-.34 0-.67.13-.91.37L4.15 7.65c-.93.88-.6 1.52.65 2.3l9.55 5.97"/>
-    <path d="m4.75 16.35 2.55 3.2c.25.31.63.5 1.03.5h7.09c.34 0 .67-.13.91-.37l3.52-3.33c.93-.88.6-1.52-.65-2.3L9.65 8.08"/>
+  <rect x="16" y="16" width="480" height="480" rx="120" fill="url(#thisai-bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="120" fill="url(#thisai-ambient)"/>
+  <rect x="16.75" y="16.75" width="478.5" height="478.5" rx="119.25" fill="none" stroke="#a5bfff" stroke-opacity=".18" stroke-width="1.5"/>
+  <g fill="none" stroke="url(#thisai-mark)" stroke-linecap="round" stroke-linejoin="round" stroke-width="27" filter="url(#thisai-glow)">
+    <path d="M158 166h196M256 166v118m0 0-57 62m57-62 57 62"/>
   </g>
+  <g fill="#d8f7ff" stroke="#0b1730" stroke-width="9">
+    <circle cx="158" cy="166" r="17"/>
+    <circle cx="354" cy="166" r="17"/>
+    <circle cx="199" cy="346" r="17"/>
+    <circle cx="313" cy="346" r="17"/>
+  </g>
+  <circle cx="256" cy="284" r="9" fill="#fff"/>
 </svg>

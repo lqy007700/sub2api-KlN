@@ -38,6 +38,9 @@ env:
 
 jobs:
   sync:
+    # This is the community maintainer's official-upstream release workflow.
+    # Personal forks follow KlN-4096/sub2api:klno instead.
+    if: ${{ github.repository == 'KlN-4096/sub2api' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout fork branch
